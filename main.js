@@ -90,15 +90,12 @@ window.addEventListener("DOMContentLoaded", () => {
     // page 1 animation
     gsap.set(".img1", { y: 630, xPercent: -20 });
     gsap.set(".img2", { y: 630, xPercent: 60 });
-    // gsap.set(".upperhead", { y: 100, xPercent: 0 });
-    // gsap.set(".mainhead", { y: 100, xPercent: 0 });
-    // gsap.set(".bottomhead", { y: 100, xPercent: 0 });
 
     // gsap.timeline();
     const t1 = gsap.timeline({
         scrollTrigger: {
           trigger: "#sec1",
-          markers: true,
+          // markers: true,
           start: "49% center",
           end: "51% center",
           toggleActions: "play reverse restart reverse"
@@ -108,7 +105,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t1content = gsap.timeline({
       scrollTrigger: {
         trigger: "#sec1",
-        markers: true,
+        // markers: true,
         start: "49% center",
         end: "51% center",
         toggleActions: "play reverse restart reverse",
@@ -143,7 +140,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t2 = gsap.timeline({
         scrollTrigger: {
           trigger: "#sec2",
-          markers: true,
+          // markers: true,
           start: "49% center",
           end: "51% center",
           toggleActions: "play reverse restart reverse"
@@ -153,7 +150,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t2content = gsap.timeline({
       scrollTrigger: {
         trigger: "#sec2",
-        markers: true,
+        // markers: true,
         start: "49% center",
         end: "51% center",
         toggleActions: "play reverse restart reverse",
@@ -185,7 +182,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t3 = gsap.timeline({
         scrollTrigger: {
           trigger: "#sec3",
-          markers: true,
+          // markers: true,
           start: "49% center",
           end: "51% center",
           toggleActions: "play reverse restart reverse"
@@ -195,7 +192,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t3content = gsap.timeline({
       scrollTrigger: {
         trigger: "#sec3",
-        markers: true,
+        // markers: true,
         start: "49% center",
         end: "51% center",
         toggleActions: "play reverse restart reverse",
@@ -231,7 +228,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t4 = gsap.timeline({
         scrollTrigger: {
           trigger: "#sec4",
-          markers: true,
+          // markers: true,
           start: "49% center",
           end: "51% center",
           toggleActions: "play reverse restart reverse"
@@ -241,7 +238,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t4content = gsap.timeline({
       scrollTrigger: {
         trigger: "#sec4",
-        markers: true,
+        // markers: true,
         start: "49% center",
         end: "51% center",
         toggleActions: "play reverse restart reverse",
@@ -296,7 +293,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t5 = gsap.timeline({
         scrollTrigger: {
           trigger: "#sec5",
-          markers: true,
+          // markers: true,
           start: "49% center",
           end: "51% center",
           toggleActions: "play reverse restart reverse"
@@ -306,7 +303,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t5content = gsap.timeline({
       scrollTrigger: {
         trigger: "#sec5",
-        markers: true,
+        // markers: true,
         start: "49% center",
         end: "51% center",
         toggleActions: "play reverse restart reverse",
@@ -357,7 +354,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t6 = gsap.timeline({
         scrollTrigger: {
           trigger: "#sec6",
-          markers: true,
+          // markers: true,
           start: "49% center",
           end: "51% center",
           toggleActions: "play reverse restart reverse"
@@ -367,7 +364,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const t6content = gsap.timeline({
       scrollTrigger: {
         trigger: "#sec6",
-        markers: true,
+        // markers: true,
         start: "49% center",
         end: "51% center",
         toggleActions: "play reverse restart reverse",
@@ -399,7 +396,7 @@ window.addEventListener("DOMContentLoaded", () => {
      const t7 = gsap.timeline({
          scrollTrigger: {
            trigger: "#sec7",
-           markers: true,
+          //  markers: true,
            start: "49% center",
            end: "51% center",
            toggleActions: "play reverse restart reverse"
@@ -409,7 +406,7 @@ window.addEventListener("DOMContentLoaded", () => {
      const t7content = gsap.timeline({
       scrollTrigger: {
         trigger: "#sec7",
-        markers: true,
+        // markers: true,
         start: "49% center",
         end: "51% center",
         toggleActions: "play reverse restart reverse",
