@@ -1,3 +1,9 @@
+// mobile carousel intialization function
+jQuery(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
+
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(Observer);
 

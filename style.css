@@ -108,15 +108,15 @@
     font-size: 30px;
     font-weight: 800;
 }
-/* .scrollcontainer{
-    scroll-snap-type: y mandatory;
-} */
 .panel {
     scroll-snap-align: start;
     height: 100vh;
     width: 100%;
 }
-/* .panel.green {
-    margin-bottom: 50px
-} */
+
+.item{
+    width: 100wh;
+    
+}
+
 
