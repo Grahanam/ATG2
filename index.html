@@ -1,0 +1,230 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- scrollmagic -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="id d-flex w-100 h-100 justify-content-center align-item-center">
+        <div style="width: 45%;" class="d-flex h-100 align-item-center justify-content-center sticky-top">
+            <div id="main" style="width: 45%; z-index: 2;" class="sticky-top h-100 position-fixed  d-flex">
+                
+                <div style="align-items: end; justify-content: center;" class="w-50 h-100 d-flex flex-column ">
+                    <div class="h-50 w-full"></div>
+                    <div class="d-flex align-items-center justify-content-center flex-column h-50 w-100 ps-4" style="color: #FFFFFF;">
+                        <div style="position: relative; height: 20%; overflow: hidden;">
+                            <img style="height: 100%; width: auto;" class="logo2" src="./assets/mobile-app-of-the-year-by-entrepreneur.png"/>
+                            <img style="height: 100%; width: auto;" class="logo3" src="./assets/world-communication-awards-for-best-digital-experience.png"/>
+                        </div>
+                        <div id="sideupperheading">
+                            <p class="sideupperhead w-100" style="font-size: 30px; font-weight: 900;"></p>  
+                          </div>
+                        <div id="sidemainheading">
+                            <p class="sidemainhead w-100"></p>
+                        </div>
+                        
+                        <div id="sidebottomheading">
+                           <p class="sidebottomhead w-100"></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="" style="width: 50%; margin-top: 10%;  margin-right: -20%; position:absolute; right: 0;" >
+                <div class="d-flex align-items-center justify-content-center" style="position: relative;">
+                    <div class="d-flex align-items-center flex-column" style="color: #FFFFFF; position: absolute; width: 100%; height: 50%; right: 0; margin-right: 30%;">
+                      <div id="upperheading">
+                        <p class="upperhead w-100 "></p>  
+                      </div>
+                      <div id="mainheading">
+                        <p class="mainhead w-100"></p>
+                        <img style="height: 100%; width: auto;" class="logo1" src="./assets/nasa-mobile-app.png"/>
+                      </div>
+                      <div style="text-align: end;" id="bottomheading">
+                         <p class="bottomhead w-100"></p>
+                      </div>
+                    </div>
+                <svg version="1.1" id="transring" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 414 414"
+                style="enable-background:new 0 0 414 414 ;border-radius: 50%;"  xml:space="preserve">
+
+                <path id="Transparent_Ring" class="transrg"
+                    style="opacity:0.4;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;enable-background:new"
+                    d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
+                c-47.8,0-91-19.4-122.3-50.7"/>
+
+                <path id="Opaque_Ring" class="transrgwht" stroke-dasharray="0,1000"
+                    style="fill: none; stroke: rgba(255, 255, 255, 0.699); stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 10, 1000;"
+                    d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173c-47.8,0-91-19.4-122.3-50.7"/>
+
+                <g id="Dots1" class="dots-nav">
+                    <g>
+                        <path id="dot1" class="dotsst dotsfill1" style="fill: rgb(0, 146, 255); opacity: 0;"
+                            d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"/>
+                    </g>
+                    <g>
+                        <path class="dotsstro1"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M84,80c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"/>
+                    </g>
+                </g>
+                <g id="Dots2" class="dots-nav">
+                    <g>
+                        <path id="dot2" class="dotsst dotsfill2" style="fill: rgb(0, 146, 255); opacity: 0;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8"/>
+                    </g>
+                    <g>
+                        <path class="dotsstro2"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8"/>
+                    </g>
+                </g>
+                <g id="Dots3" class="dots-nav">
+                    <g>
+                        <path id="dot3" class="dotsst dotsfill3" style="fill: rgb(0, 146, 255); opacity: 0;"
+                            d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332"/>
+                    </g>
+                    <g>
+                        <path class="dotsstro3"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332"/>
+                    </g>
+                </g>
+                <g id="Dots4" class="dots-nav">
+                    <g>
+                        <path id="dot4" class="dotsst dotsfill4" style="fill: rgb(0, 146, 255); opacity: 1;"
+                            d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380"/>
+                    </g>
+                    <g>
+                        <path class="dotsstro4"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380"/>
+                    </g>
+                </g>
+                <g id="Dots5" class="dots-nav">
+                    <g>
+                        <path id="dot5" class="dotsst dotsfill5" style="fill: rgb(0, 146, 255); opacity: 1;"
+                            d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335"/>
+                    </g>
+                    <g>
+                        <path class="dotsstro5"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335"/>
+                    </g>
+                </g>
+                <g id="Dots6" class="dots-nav">
+                    <g>
+                        <path id="dot6" class="dotsst dotsfill6" style="fill: rgb(0, 146, 255); opacity: 1;"
+                            d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210"/>
+                    </g>
+                    <g>
+                        <path class="dotsstro6"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210"/>
+                    </g>
+                </g>
+                <g id="Dots7" class="dots-nav">
+                    <g>
+                        <path id="dot7" class="dotsst dotsfill7" style="fill: rgb(0, 146, 255); opacity: 1;"
+                            d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88"></path>
+                    </g>
+                    <g>
+                        <path class="dotsstro7"
+                            style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                            d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88"></path>
+                    </g>
+                </g>
+            </svg>
+            </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scrollcontainer" style="width: 55%; position: relative; height: 100vh;">
+            <div class="playground" style="position: fixed; top: 0; opacity: 100%; width: 55%; height: 100vh; z-index: 1;">
+                <div class="imagewrapper d-flex align-item-center justify-content-center">
+                    <!-- page 1 animation content -->
+                    <img class="img1" style="height: 70%; width: auto;" src="./assets/nexgtv-entertainment-mobile-app-development.png"/>
+                    <img class="img2" style="height: 70%; width: auto;" src="./assets/nexgtv-mobile-app-ui-design.png"/>
+                    
+                    <!-- page 2 animation content -->
+                    <img class="img3" style="height: 70%; width: auto;" src="./assets/veme-blockchain-app-developed.png"/>
+                    <img class="img4" style="height: 70%; width: auto;" src="./assets/veme-app-ui-design.png"/>
+                    
+                    <!-- page 3 animation content -->
+                    <img class="img5" style=" height:70%; width: auto;" src="./assets/nasa-fitness-tracking-mobile-app.png"/>
+                    <img class="img6" style="height:70%; width: auto;" src="./assets/measure-total-body-weight-through-fitness-app.png"/>
+                    
+                    <!-- page 4 animation content -->
+                    <img class="img7" style=" height:60%; width: auto;" src="./assets/domi-img1.png"/>
+                    <img class="img8" style="height:60%; width: auto;" src="./assets/ux-strategy-for-mobile-app-devlopment.png"/>
+                    <img class="img9" style="height:40%; width: auto;" src="./assets/pizza_box.png"/>
+                    <img class="img10" style="height:30%; width: auto;" src="./assets/dominos-bread.png"/>
+                    <img class="img11" style="height:30%; width: auto;" src="./assets/dominos-bread1.png"/>
+                    
+                     <!-- page 5 animation content -->
+                     <img class="img12" style=" height:60%; width: auto;" src="./assets/karavan-social-networking-app-screen.png"/>
+                     <img class="img13" style="height:60%; width: auto;" src="./assets/social-networking-app-case-study.png"/>
+                     <img class="img14" style="height:60%; width: auto;" src="./assets/developers-for-social-media-app.png"/>
+                     <img class="img15" style="height:60%; width: auto;" src="./assets/karavan_2.png"/>
+                     <img class="img16" style="height:60%; width: auto;" src="./assets/karavan-social-networking-app-screen-2.png"/>
+                    
+                    <!-- page 6 animation content -->
+                    <img class="img20" style=" height:100%; width: auto;" src="./assets/interior.jpg"/>
+                    <img class="img17" style=" height:auto; width: 100%;" src="./assets/erp-app-development-service.png"/>
+                    
+                     <!-- page 7 animation content -->
+                     <img class="img19" style="height:80%; width: auto;" src="./assets/melltoo-img1.png"/>
+               
+                     <img class="img18" style=" height:80%; width: auto;" src="./assets/melltoo-img2.png"/>
+                     
+                </div>
+            </div>
+            <section style="height: 100vh;" class="panel blue spacer s1 d-flex align-item-center justify-content-center" id="sec1">
+                <!-- <div class="imagewrapper">
+                    <img class="img1" src="./assets/karavan-social-networking-app-screen-2.png"/>
+                    <img class="img2" src="./assets/karavan-social-networking-app-screen.png"/>
+                </div> -->
+            </section>
+            <section style="height: 100vh;" class="panel turqoise spacer s1" id="sec2">
+
+            </section>
+            <section style="height: 100vh;" class="panel green spacer s1" id="sec3">
+
+            </section>
+            <section style="height: 100vh;" class="panel bordeaux spacer s1" id="sec4">
+                
+            </section>
+            <section style="height: 100vh;" class="panel bordeaux spacer s1" id="sec5">
+                
+            </section>
+            <section style="height: 100vh;" class="panel bordeaux spacer s1" id="sec6">
+                
+            </section>
+            <section style="height: 100vh;" class="panel bordeaux spacer s1" id="sec7">
+                
+            </section>
+        </div>
+    </div>
+    
+    <script type="module" src="main.js"></script>
+    
+</body>
+</html>

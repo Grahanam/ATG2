@@ -1,0 +1,122 @@
+*{
+    margin:auto 0;
+    padding: 0;
+    scroll-snap-type: y mandatory;
+}
+.imagewrapper{
+    height: 100%;
+    width: 100%;
+}
+.imagewrapper img{
+    position: absolute;
+    z-index: -1;
+}
+
+/* #upperheading, #mainheading, #bottomheading{
+    width: 100%;
+    background-color: aqua;
+    
+    overflow: hidden;
+
+} */
+#mainheading{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+}
+#upperheading{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow:hidden
+}
+#bottomheading{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#sidemainheading{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+}
+#sideupperheading{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow:hidden
+}
+#sidebottomheading{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+#upperheading p{
+    
+    position: absolute;
+    white-space: nowrap;
+}
+#mainheading p{
+    position:absolute;
+    white-space: nowrap;
+}
+#bottomheading p{
+    position: absolute;
+    white-space: nowrap;
+}
+
+#sideupperheading p{
+    
+    position: absolute;
+    /* white-space: nowrap; */
+}
+#sidemainheading p{
+    position:absolute;
+    /* white-space: nowrap; */
+}
+#sidebottomheading p{
+    position: absolute;
+    /* white-space: nowrap; */
+}
+
+#mainheading{
+    font-size: 30px;
+    font-weight: 800;
+}
+/* .scrollcontainer{
+    scroll-snap-type: y mandatory;
+} */
+.panel {
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 100%;
+}
+/* .panel.green {
+    margin-bottom: 50px
+} */
+
